@@ -2,3 +2,18 @@
 .col-lg-8{
     flex: 1 0 auto !important;
 }
+.App {
+    margin: 0 auto;
+    padding: 8px 8px 16px;
+    max-width: 1400px;
+    min-width: 320px;
+  }
+.App_logo {
+    width: 100%;
+    max-width: 400px;
+  }
+.title_header {
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+  }

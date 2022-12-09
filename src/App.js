@@ -5,7 +5,7 @@ import Search from "./Components/Search/Search";
 import Card from "./Components/Card/Card";
 import Pagination from "./Components/Pagination/Pagination";
 import "./App.css"
-
+import titleimg from "./Components/Images/RickMorty.png"
 
 
 function App() {
@@ -23,7 +23,16 @@ useEffect(()=>{
 },[api]);
   return (
     <div className="App">
-      <h1 className="text-center mb-3">Characters</h1>
+      <header className="title_header">
+      <a href="/" aria-label="home page">
+      <img
+            className="App_logo"
+            src={titleimg}
+            alt="Rick and Morty"
+            role="banner"
+          />
+        </a>
+      </header>
       <Search setSearch={setSearch} updatePageNumber={updatePageNumber} />
       <div className="container">
       <div className="row">

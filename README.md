@@ -4,7 +4,10 @@
     - Card
     - Pagination
     - Search
-    - Navbar
-    - Filters (To be added)
+# To run the app
+    ```
+    npm i
+    npm start
+    ```
 
 

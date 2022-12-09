@@ -4,6 +4,16 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgb(22, 24, 38);
+  background: linear-gradient(
+    180deg,
+    rgb(222, 238, 149) 0%,
+    rgb(250, 118, 77) 40%,
+    rgb(218, 96, 207) 100%,
+    rgb(66, 245, 81) 100%
+  );
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
 
 .ubuntu {

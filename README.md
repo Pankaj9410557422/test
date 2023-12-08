@@ -1,5 +1,5 @@
 # Rick And Morty React App
-
+#Adding for demo
 - Divide entire project into :-
     - Card
     - Pagination
